@@ -1,0 +1,336 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+  font-family: 'Poppins',sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+header{
+  background-color:#f0f0f0;
+  width: 100%;
+  position:fixed;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 200px;
+  z-index:999;
+}
+.logo{
+  text-decoration: none;
+  color:#000000;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size:1.8em;
+}
+.navigation a{
+  color: #000000;
+  text-decoration: none;
+  font-size: 1.18em;
+  font-weight: 500;
+  padding-left: 30px;
+}
+.navigation a:hover{
+  color: blue;
+}
+section {
+  padding: 100px 200px;
+}
+.main{
+  width: 100%;
+  min-height:100vh;
+  display: flex;
+  align-items: center;
+  background:url(images/Black_flag.svg.png);
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+}
+.text-img{
+  margin-right:auto;
+}
+.main h2{
+  color: #f0f0f0;
+  font-size: 1.4em;
+  font-weight: 500;
+}
+.main h2 span{
+  color: #f0f0f0;
+  font-size:3em;
+  font-weight: 600;
+}
+.main h3{
+  color:#fff;
+  font-size: 2em;
+  font-weight:700;
+  letter-spacing: 1px;
+  margin-top: 10px;
+  margin-bottom:30px;
+}
+.main-btn{
+  color: #000000;
+  background-color: #fff;
+  text-decoration: none;
+  font-size: 1.1em;
+  font-size: 600;
+  display: inline-block;
+  padding: 0.9375em 2.1875cm;
+  letter-spacing: 1px;
+  border-radius: 15px;
+  margin-bottom: 40px;
+  transition:0.7s ease;
+}
+.main-btn:hover{
+  background-color:#0a49f6;
+  color: #f0f0f0;
+  transform:scale(1.1);
+}
+.title{
+  display: flex;
+  justify-content: center;
+  color: #f0f0f0;
+  font-size: 2.2em;
+  font-weight: 800;
+  margin-bottom: 30px;
+}
+.content{
+  display: flex;
+  justify-content: center;
+  flex-direction:row;
+  flex-wrap: wrap;
+}
+.card{
+  background-color: #f0f0f0;
+  width:21.25em;
+  box-shadow:0 5px 25px rgba(1 1 1 / 15%);
+  border-radius: 10px;
+  padding: 25px;
+  margin: 15px;
+  transition:0.7s ease;
+}
+.card:hover{
+  
+  color: #000000;
+  transform:scale(1.1);
+}
+.icon{
+  color: #0a49f6;
+  font-size: 8em;
+  text-align: center;
+}
+.info{
+  text-align: center;
+}
+.info h3{
+  color: #000000;
+  font-size: 1.2em;
+  font-weight: 700;
+  margin: 10px;
+}
+
+.footer{
+  background:url(images/Black_flag.svg.png);
+  background-size: cover;
+  display: flex;
+  justify-content: space-between;
+  color: #fff;
+  padding:2em;
+  text-align: center;
+}
+.footer-title{
+  font-size:1.4em ;
+  font-weight: 500;
+}
+.footer-title span{
+  color:#0a49f6 ;
+}
+.soical-icons a{
+  color: #f0f0f0;
+  font-size: 1.7em;
+  margin: 10px;
+  transition:0.7s ease;
+}
+footer .soical-icons{
+  font-size: 1.3em;
+  padding: 0 12px 0 ;
+}
+.soical-icons a :hover{
+  color: #0a49f6;
+  transform:scale(1.1);
+}
+
+.main-about{
+  background-color: #000016;
+  width:100%;
+  padding-bottom: 10%;
+}
+.main-about h2{
+  color: #f0f0f0;
+  font-size: 1.4em;
+  font-weight: 500;
+}
+.main-about h3{
+  color:#fff;
+  font-size: 2em;
+  font-weight:700;
+  letter-spacing: 1px;
+  margin-top: 10px;
+  margin-bottom:30px;
+}
+.contact{
+  width: 100%;
+  background-color: #000016;
+}
+.contact h2{
+  color: #f0f0f0;
+  font-size:20px;
+  margin: 15px;
+  padding-bottom: 50%;
+  text-align: center ;
+}
+.contact input{
+  width: 100%;
+  height: 50px;
+  padding: 0 20px;
+  margin-bottom:10px;
+  border-radius: 5px;
+  border: 1px solid #000016;
+}
+.contact input:focus{
+  border:1px solid #000016;
+  outline: 100px;
+}
+
+.contact textarea{
+  width: 100%;
+  height: 150px;
+  padding: 15px 20px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: 1px solid #000016;
+}
+.contact textarea:focus{
+  border:1px solid #000016;
+  outline: 0;
+}
+.contact button{
+  border: 0;
+  padding: 10px 30px;
+  background: #f0f0f0;
+  font-size: 18px;
+  border-radius:5px ;
+  color: #000000;
+  transition:0.7s ease;
+}
+
+.contact button:hover{
+  background-color:#0a49f6;
+  color: #f0f0f0;
+  transform:scale(1.1);
+}
+
+* .login{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body .wrapper{
+  width: auto;
+  min-height:100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #000016;
+}
+.wrapper{
+  width: 420px;
+  color: #f0f0f0 ;
+  border-radius: 10px;
+  padding: 30px 40px;
+  
+}
+.wrapper h1{
+  font-size: 36px;
+  text-align: center;
+}
+.wrapper .input{
+  position: relative;
+  width: 100%;
+  height: 50px;
+  background-color: antiquewhite;
+  margin: 30px 0;
+}
+.input-box input{
+  width: 100%;
+  height: 100%;
+  border: none;
+  outline: none;
+  border: 2px solid #000000;
+  border-radius: 40px;
+  font-size:16px ;
+  color: #000000;
+  padding: 20px 45px 20px 20px;
+}
+.wrapper.input-box input::placeholder{
+  color: #000000;
+}
+
+.wrapper.input-box i{
+  position: absolute;
+  right: 20px;
+  top:50%;
+  transform: translateY(-50%);
+  font-size:20px ;
+}
+.wrapper.remember-forget{
+  display: flex;
+  justify-content: space-between;
+  font-size: 14.5px;
+  margin: -15px 0 15px;
+
+}
+.wrapper.remember-forget  label input{
+  accent-color:#fff ;
+  margin-right: 3px;
+}
+.wrapper.remember-forget a{
+  color: #000000;
+  text-decoration: none;
+}
+.remember-forget a :hover{
+  color: #f0f0f0;
+  text-decoration: underline;
+}
+.wrapper .login-btn{
+  width: 100%;
+  height: 45px;
+  border: none;
+  background-color: #fff;
+  outline: none;
+  cursor: pointer;
+  border-radius: 40px;
+  font-size: 16px;
+  font-weight: 600;
+  transition:0.7s ease;
+}
+.wrapper .login-btn :hover{
+
+  background-color:#0a49f6;
+  color: #f0f0f0;
+  transform:scale(1.1);
+}
+.wrapper .register-link{
+  font-size: 14.5px;
+  text-align: center;
+  margin-top: 20px;
+}
+.wrapper.register-link p a{
+  color: #000000;
+  text-decoration: none;
+  font-weight: 600;
+}
+.register-link p a :hover{
+  text-decoration: underline;
+
+}
