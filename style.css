@@ -186,7 +186,6 @@ footer .soical-icons{
   color: #f0f0f0;
   font-size:20px;
   margin: 15px;
-  padding-bottom: 50%;
   text-align: center ;
 }
 .contact input{
@@ -333,4 +332,17 @@ body .wrapper{
 .register-link p a :hover{
   text-decoration: underline;
 
+}
+.footer-about{
+  background:url(images/Black_flag.svg.png);
+  background-size: cover;
+  display: flex;
+  justify-content: space-between;
+  color: #fff;
+  padding:2em;
+  text-align: center;
+  position: absolute;
+  bottom: 20px;
+  weight: 80;
+  
 }
